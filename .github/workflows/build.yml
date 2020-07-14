@@ -34,4 +34,4 @@ jobs:
       # Deploy the nav configuration to S3
       - name: Deploy the nav to S3
         run: |
-          aws s3 cp navigation/ic.json s3://specialist-navigation-bucket 
+          aws s3 cp nav.json s3://specialist-navigation-bucket 
